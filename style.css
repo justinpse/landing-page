@@ -12,6 +12,23 @@ h2 {
 
 .one, .footer{
     background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.one-left p, ul {
+    color: #E5E7EB;
 }
 
 .three {
