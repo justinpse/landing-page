@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -16,4 +16,12 @@ h2 {
 
 .three {
     background-color: #E5E7EB;
+}
+
+.footer {
+    margin-top: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
