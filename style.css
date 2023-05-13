@@ -1,4 +1,19 @@
 body {
+    margin: 0;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0;
+}
+
+.one, .footer{
+    background-color: #1f2937;
+}
+
+.three {
+    background-color: #E5E7EB;
 }
