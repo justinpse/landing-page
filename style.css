@@ -168,3 +168,49 @@ a {
     font-size: 25px;
     color: #1f2937  ;
 }
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.section4-1 {
+    background-color: #3882f6;
+    width: 960px;
+    padding: 50 0 50 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section4-1 button {
+    background-color: #3882f6;
+    border: solid;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5 25;
+    border-radius: 7px;
+    border-width: 2px;
+}
+
+.section4-text {
+    color: #e5e7eb;
+}
+
+.section4-text h2, .section4-text p {
+    margin: 0;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
