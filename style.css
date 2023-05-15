@@ -18,7 +18,7 @@ body {
     gap: 30px;
 }
 
-.section1-1 {
+.section1-1, .section1-2 {
     width: 50%;
 }
 
@@ -41,4 +41,57 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.section1-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30 0 90 0;
+    gap: 40px;
+}
+
+.left-content, .right-content {
+    width: 50%;
+}
+
+.right-content {
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left-content h1, .left-content p {
+    margin-top: 0;
+    margin-bottom: 10;
+}
+
+.left-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.left-content h1, header h2 {
+    color: #f9f4f8;
+}
+
+.section1 p, .section1 a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section1 button {
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10 35;
+    border-radius: 10px;
 }
